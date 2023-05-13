@@ -75,6 +75,11 @@ public class AddressBookController {
         return R.success(addressBook);
     }
 
+    /**
+     * 查询地址详细信息
+     * @param addressBook
+     * @return
+     */
     @GetMapping("/list")
     public R<List<AddressBook>> list(AddressBook addressBook){
         addressBook.setUserId(BaseContext.getCurrentId());
