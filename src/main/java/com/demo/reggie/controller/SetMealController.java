@@ -115,4 +115,15 @@ public class SetMealController {
         }).collect(Collectors.toList());*/
         return R.success(list);
     }
+
+    /**
+     * 前台查询套餐中的菜品
+     * @param id
+     * @return
+     */
+    /*@GetMapping("/dish/{id}")
+    public R<SetmealDto> getDish(@PathVariable Long id){
+        SetmealDto setmealDto = setmealService.getWithDish(id);
+        return R.success(setmealDto);
+    }*/
 }
