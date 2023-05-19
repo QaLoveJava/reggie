@@ -70,10 +70,24 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.1.23</version>
         </dependency>
+
         <!--redis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!--cache缓存-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+
+        <!--导入加强jdbc 实现主从数据库分离-->
+        <dependency>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+            <version>4.0.0-RC1</version>
         </dependency>
 
         <!--阿里云短信业务-->
