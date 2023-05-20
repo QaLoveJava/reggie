@@ -24,4 +24,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-  path: D:\黑马课程资料\picture\
+  path: D:\javacode\reggie_take_out\src\main\resources\picture\    #文件路径，不显示图片修改一下路径即可
